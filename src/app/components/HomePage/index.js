@@ -40,14 +40,14 @@ export default function HomePage() {
       <div className="w-2/6 flex items-center justify-center bg-amber-50 border-l-4 border-amber-800">
         <div>
           <PixelTransition
-            firstContent={
+            secondContent={
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg"
                 alt="default pixel transition content, a cat!"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             }
-            secondContent={
+            firstContent={
               <div
                 style={{
                   width: "100%",
