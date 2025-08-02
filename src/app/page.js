@@ -1,12 +1,15 @@
-import SplashCursor from '../../bits/SplashCursor/SplashCursor';
-import HomePage from './components/homepage'
+"use client";
+// import SplashCursor from '../../bits/SplashCursor/SplashCursor';
+import Paragraph from './components/Paragraph'
+import HomePage from './components/HomePage';
+// import PixelTrail from '../../bits/PixelTrail/PixelTrail';
 export default function App() {
   return(
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-     
-      {/* <SplashCursor/> */}
+    <div className='font-["cabinet-grotesk"]'>
       <HomePage/>
-      
+      {/* <SplashCursor/> */}
+      <Paragraph/>
+      {/* <PixelTrail/> */}
     </div>
   )
 }
