@@ -4,7 +4,6 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import useMousePosition from "./useMousePosition";
 import PixelTransition from "../../../../bits/PixelTransition/PixelTransition";
-import InitialCurve from "../InitialCurve";
 
 export default function LandingPage() {
   const [isHovered, setIsHovered] = useState(false);
@@ -13,11 +12,10 @@ export default function LandingPage() {
 
   return (
     <div id="About" className="flex h-screen w-screen">
-      <InitialCurve/>
         
       <main
         className={`${styles.main} w-4/6 flex flex-col  justify-center text-zinc-900 bg-zinc-50`}
-      >
+        >
         <motion.div
           className={`${styles.mask} bg-yellow-50`}
           animate={{
@@ -25,7 +23,7 @@ export default function LandingPage() {
             WebkitMaskSize: `${size}px`,
           }}
           transition={{ type: "tween", ease: "backOut", duration: 0.5 }}
-        >
+          >
           <p
             className="w-4/6 mr-130"
             onMouseEnter={() => {
@@ -34,7 +32,7 @@ export default function LandingPage() {
             onMouseLeave={() => {
               setIsHovered(false);
             }}
-          >
+            >
             If it looks good, it’s mine. If it doesn’t, someone changed the file
             after I handed it off.
             <br />- Franz Kafka 1899

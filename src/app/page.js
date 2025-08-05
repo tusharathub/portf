@@ -14,10 +14,13 @@ import Navbar from './components/Navbar/page';
 export default function App() {
   return(
     <div className='font-["sriracha"]'>
-      {/* <InitialCurve/> */}
-      <Navbar/>
+      <InitialCurve/>
+      {/* <div> */}
+        {/* <InitialCurve/> */}
+      {/* <Navbar/> */}
+      {/* <ParagraphMask/> */}
+      {/* </div> */}
       {/* <StickyCursor/> */}
-      <ParagraphMask/>
       <ProjectsPage/>
       <Skills/>
       {/* <Foot/> */}

@@ -23,7 +23,7 @@ export default function Navbar() {
 
   return (
     <div
-      className={`fixed z-[999] w-full px-[40px] py-[20px] shadow-md  flex justify-between items-center transition-all duration-500
+      className={`fixed z-[699] w-full px-[40px] py-[20px] shadow-md  flex justify-between items-center transition-all duration-500
        ${show ? " top-0 text-3xl backdrop-blur-md  text-zinc-900 bg-zinc-100": "-top-20"}`}>
       <div className="logo">
         <h1>Wanna work?</h1>

@@ -1,7 +1,8 @@
 import { useRef, useEffect } from "react";
 import styles from "./Page.module.css";
-import LandingPage from "../ParagraphMask";
+import LandingPage from "../ParagraphMask/index";
 import HomePage from "../HomePage";
+import Navbar from "../Navbar/page";
 
 export default function InitialCurve() {
   const loader = useRef(null);
@@ -17,13 +18,13 @@ export default function InitialCurve() {
     }, 500);
   }, []);
 
-  //   const loaderHeight = () => {
+    // const loaderHeight = () => {
 
-  //     const loaderBounds = loader.current.getBoundingClientRect();
+    //   const loaderBounds = loader.current.getBoundingClientRect();
 
-  //     return loaderBounds.height;
+    //   return loaderBounds.height;
 
-  //   }
+    // }
   const animate = (timestamp) => {
     if (start === undefined) {
       start = timestamp;
@@ -77,8 +78,9 @@ export default function InitialCurve() {
     <main className={styles.main}>
       <div className={styles.body}>
        
-        {/* <LandingPage/> */}
+       <Navbar/>
         {/* <HomePage/> */}
+        <LandingPage/>
       </div>
         
 
