@@ -19,9 +19,9 @@ export default function FooterPage() {
   }, [])
 
   return (
-    <main>
-      <Intro />
-      {/* <Content/> */}
+    <main id="Contact">
+      {/* <Intro /> */}
+      <Content/>
     </main>
   );
 }

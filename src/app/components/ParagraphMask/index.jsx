@@ -12,7 +12,7 @@ export default function LandingPage() {
   const size = isHovered ? 400 : 40;
 
   return (
-    <div className="flex h-screen w-screen">
+    <div id="About" className="flex h-screen w-screen">
       <InitialCurve/>
         
       <main

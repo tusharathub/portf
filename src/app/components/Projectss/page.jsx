@@ -39,7 +39,7 @@ export default function ProjectsPage() {
     const [inside, setInside] = useState({active: false, index: 0});
 
     return(
-        <main className={styles.main}>
+        <main id='Work' className={styles.main}>
             <div className={styles.body}>
                 {projects.map((project, index) => {
                     return <Project index={index} title={project.title} detailes={project.detailes} link={project.link} setInside={setInside} key={index} />
