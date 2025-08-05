@@ -7,15 +7,19 @@ import InitialCurve from './components/InitialCurve';
 import ParagraphMask from './components/ParagraphMask';
 import Skills from './components/Skills';
 import ProjectsPage from './components/Projectss/page';
+import FooterPage from './components/Footer/page';
+import Navbar from './components/Navbar/page';
 // import PixelTrail from '../../bits/PixelTrail/PixelTrail';
 export default function App() {
   return(
-    <div className='font-["cabinet-grotesk"]'>
-      <InitialCurve/>
+    <div className='font-["sriracha"]'>
+      {/* <InitialCurve/> */}
+      <Navbar/>
       {/* <StickyCursor/> */}
       <ParagraphMask/>
       <ProjectsPage/>
       <Skills/>
+      <FooterPage/>
 
       {/* <HomePage/> */}
       {/* <SplashCursor/> */}

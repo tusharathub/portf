@@ -1,5 +1,6 @@
 import { useRef, useEffect } from "react";
 import styles from "./Page.module.css";
+import LandingPage from "../ParagraphMask";
 import HomePage from "../HomePage";
 
 export default function InitialCurve() {
@@ -75,12 +76,11 @@ export default function InitialCurve() {
   return (
     <main className={styles.main}>
       <div className={styles.body}>
-        {/* <h1>
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout.
-        </h1> */}
+       
+        {/* <LandingPage/> */}
+        {/* <HomePage/> */}
       </div>
-        <HomePage/>
+        
 
       <div ref={loader} className={styles.loader}>
         <svg>

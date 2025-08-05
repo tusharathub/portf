@@ -49,7 +49,7 @@ const skills = [
 
 
   const manageMouseLeave = (e, index) => {
-    gsap.to(e.target, {top: "0", backgroundColor: "#FFF8E1", duration: 0.3, delay: 0.1})
+    gsap.to(e.target, {top: "0", backgroundColor: "#fafafa", duration: 0.3, delay: 0.1})
   }
 
 

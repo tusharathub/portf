@@ -2,6 +2,7 @@ import styles from './page.module.css';
 import { motion } from 'framer-motion';
 import { links, footerLinks } from './data';
 import { perspective, slideIn } from "./anim";
+import TargetCursor from "../../../../../bits/TargetCursor/TargetCursor";
 
 export default function index() {
   return (
@@ -20,7 +21,11 @@ export default function index() {
                           animate="enter"
                           exit="exit"
                         >
-                            <a>
+                        <TargetCursor
+                            spinDuration={2}
+                            hideDefaultCursor={true}
+                        />
+                            <a className='cursor-target'>
                                 {title}
                             </a>
                         </motion.div>
