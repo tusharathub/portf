@@ -1,4 +1,3 @@
-import styles from './page.module.css';
 import Project from "./RealProjects/index"
 import Inside from "./inside/index"
 import { useState } from "react";
