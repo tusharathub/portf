@@ -41,7 +41,7 @@ const Section = () => {
           <a href="https://x.com/tushar_nerd" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 cursor-target">Twitter <FaTwitter/>  </a>
           <a href="https://github.com/tusharathub" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 cursor-target">GitHub <FaGithub/></a>
           <a href="https://www.linkedin.com/in/tushar-nailwal/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 cursor-target">LinkedIn <FaLinkedin/></a>
-          <a href="" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 cursor-target">Resume <FaFile/></a>
+          <a href="https://tusharresume.tiiny.site/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 cursor-target">Resume <FaFile/></a>
           <a href="mailto:tushar.chd17@gmail.com?subject=Query%20Related%20to&body=Hi%20Tushar," target="_blank" rel="noopener noreferrer" className="flex items-center gap-1  cursor-target">Email <FaMailBulk/></a>
         </div>
 
