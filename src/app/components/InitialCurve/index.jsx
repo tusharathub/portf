@@ -1,7 +1,6 @@
 import { useRef, useEffect } from "react";
 import styles from "./Page.module.css";
 import LandingPage from "../ParagraphMask/index";
-import HomePage from "../HomePage";
 import Navbar from "../Navbar/page";
 
 export default function InitialCurve() {
@@ -18,13 +17,6 @@ export default function InitialCurve() {
     }, 500);
   }, []);
 
-    // const loaderHeight = () => {
-
-    //   const loaderBounds = loader.current.getBoundingClientRect();
-
-    //   return loaderBounds.height;
-
-    // }
   const animate = (timestamp) => {
     if (start === undefined) {
       start = timestamp;
@@ -79,7 +71,6 @@ export default function InitialCurve() {
       <div className={styles.body}>
        
        <Navbar/>
-        {/* <HomePage/> */}
         <LandingPage/>
       </div>
         

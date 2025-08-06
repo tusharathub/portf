@@ -5,7 +5,6 @@
 import InitialCurve from './components/InitialCurve';
 // import StickyCursor from './components/StickyCursor';
 import ParagraphMask from './components/ParagraphMask';
-import Foot from './components/Foot';
 import Skills from './components/Skills';
 import ProjectsPage from './components/Projectss/page';
 import FooterPage from './components/Footer/page';

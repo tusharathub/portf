@@ -1,6 +1,6 @@
-import TargetCursor from "../../../../../bits/TargetCursor/TargetCursor";
-import MagnetLines from "../../../../../bits/MagnetLines/MagnetLines";
-import { FaGithub, FaTwitter, FaLinkedin, FaInstagram, FaMailBulk } from "react-icons/fa";
+import TargetCursor from "../../../../bits/TargetCursor/TargetCursor";
+import MagnetLines from "../../../../bits/MagnetLines/MagnetLines";
+import { FaGithub, FaTwitter, FaLinkedin, FaMailBulk } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -9,7 +9,6 @@ export default function Footer() {
       style={{clipPath: "polygon(0% 0, 100% 0%, 100% 100%, 0 100%)"}}
     >
       <div className='fixed bottom-0 h-[800px] w-full'>
-        {/* <Foot/> */}
         <Content />
       </div>
     </div>

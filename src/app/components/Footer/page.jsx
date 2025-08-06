@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import Lenis from 'lenis';
-import Content from "./Contents/contents";
+import Content from "./contents";
 
 export default function FooterPage() {
 
