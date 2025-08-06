@@ -27,11 +27,6 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased `}
       >
-        
-        <div className="font-[sriracha] ">
-        {/* <SideMenu /> */}
-        </div>
-        
         {children}
       </body>
     </html>
