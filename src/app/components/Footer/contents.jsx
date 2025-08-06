@@ -1,6 +1,6 @@
 import TargetCursor from "../../../../bits/TargetCursor/TargetCursor";
 import MagnetLines from "../../../../bits/MagnetLines/MagnetLines";
-import { FaGithub, FaTwitter, FaLinkedin, FaMailBulk } from "react-icons/fa";
+import { FaGithub, FaTwitter, FaLinkedin, FaMailBulk, FaFile } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -38,25 +38,25 @@ const Section = () => {
         </div>
 
         <div className="flex gap-10 text-2xl">
-          <a href="#" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 cursor-target">Twitter <FaTwitter/>  </a>
-          <a href="#" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 cursor-target">GitHub <FaGithub/></a>
-          <a href="#" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 cursor-target">LinkedIn <FaLinkedin/></a>
-          <a href="#" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1  cursor-target">Email <FaMailBulk/></a>
+          <a href="https://x.com/tushar_nerd" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 cursor-target">Twitter <FaTwitter/>  </a>
+          <a href="https://github.com/tusharathub" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 cursor-target">GitHub <FaGithub/></a>
+          <a href="https://www.linkedin.com/in/tushar-nailwal/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 cursor-target">LinkedIn <FaLinkedin/></a>
+          <a href="" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 cursor-target">Resume <FaFile/></a>
+          <a href="mailto:tushar.chd17@gmail.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1  cursor-target">Email <FaMailBulk/></a>
         </div>
 
         <p className="text-xs text-zinc-500">© {new Date().getFullYear()} Tushar N. All rights reserved.</p>
       </div>
       <div className="w-2/6 flex mt-10 items-center justify-center">
-      <MagnetLines
-  rows={9}
-  columns={9}
-  containerSize="40vmin"
-  lineColor="black"
-  lineWidth="0.3vmin"
-  lineHeight="4vmin"
-  baseAngle={0}
-  // style={{ margin: "2rem auto" }}
-/>
+        <MagnetLines
+          rows={9}
+          columns={9}
+          containerSize="40vmin"
+          lineColor="black"
+          lineWidth="0.3vmin"
+          lineHeight="4vmin"
+          baseAngle={0}
+        />
       </div>
     </div>
   );
