@@ -23,10 +23,9 @@ export default function InitialCurve() {
     }
 
     const elapsed = timestamp - start;
+    const newCurve = easeOutQuad(elapsed, initialCurve, -200, duration);
 
-     const newCurve = easeOutQuad(elapsed, initialCurve, -200, duration)
-
-  setPath(newCurve);
+    setPath(newCurve);
     loader.current.style.top =
       easeOutQuad(elapsed, 0, -loaderHeight(), duration) + "px";
 
@@ -41,40 +40,31 @@ export default function InitialCurve() {
 
   const loaderHeight = () => {
     const loaderBounds = loader.current.getBoundingClientRect();
-
     return loaderBounds.height;
   };
 
   const setPath = (curve) => {
-    const width = window.innerWidth;
 
+    const width = window.innerWidth;
     const height = loaderHeight();
 
     path.current.setAttributeNS(
       null,
       "d",
-
       `M0 0
-
     L${width} 0
-
     L${width} ${height}
-
     Q${width / 2} ${height - curve} 0 ${height}
-
     L0 0`
     );
   };
 
   return (
-    <main   className={styles.main}>
+    <main className={styles.main}>
       <div className={styles.body}>
-       
-       <Navbar/>
-        <LandingPage/>
+        <Navbar />
+        <LandingPage />
       </div>
-        
-
       <div ref={loader} className={styles.loader}>
         <svg>
           <path ref={path}></path>
