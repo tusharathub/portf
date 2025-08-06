@@ -4,45 +4,45 @@ import gsap from "gsap"
 const skills = [
 
     {
+        title: "Next.Js",
+        color: "#0CBCF0"
+    },
+    {
+        title: "ReactJs",
+        color: "#F0BA18"
+    },
+    {
         title: "Javascript",
         color: "#DCF018"
     },
     {
-        title: "Next.Js",
-        color: "#0CBCF0"
-  },
-  {
-      title: "MongoDB",
-      color: "#8C0CF0"
-    },
-    {
-        title: "Node.js",
+        title: "Typescript",
         color: "#18F0E8"
     },
     {
-        title: "React",
-        color: "#F0183C"
+        title: "MongoDB",
+        color: "#8C0CF0"
     },
     {
-        title: "Express.js",
-        color: "#F0BA18"
+        title: "Express",
+        color: "#91F018"
+    },
+    {
+        title: "NodeJs",
+        color: "#F06318"
     },
     {
         title: "Tailwind CSS",
         color: "#0C34F0"
     },
     {
-        title: "HTML",
-        color: "#F06318"
+        title: "Convex",
+        color: "#F0183C"
     },
     {
-        title: "CSS",
+        title: "Github",
         color: "#F0F018"
     },
-    {
-    title: "CSS",
-    color: "#91F018"
-    }
 ]
 
  export default function Skills() {
