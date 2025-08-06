@@ -10,10 +10,15 @@ import Skills from './components/Skills';
 import ProjectsPage from './components/Projectss/page';
 import FooterPage from './components/Footer/page';
 import Navbar from './components/Navbar/page';
+import Object from './components/Object/page';
+import { useEffect, useRef } from 'react';
+import { useScroll } from 'framer-motion';
 // import PixelTrail from '../../bits/PixelTrail/PixelTrail';
 export default function App() {
+
+
   return(
-    <div className='font-["sriracha"]'>
+    <div  className='font-["sriracha"]'>
       <InitialCurve/>
       {/* <div> */}
         {/* <InitialCurve/> */}
@@ -21,6 +26,7 @@ export default function App() {
       {/* <ParagraphMask/> */}
       {/* </div> */}
       {/* <StickyCursor/> */}
+      <Object/>
       <ProjectsPage/>
       <Skills/>
       {/* <Foot/> */}

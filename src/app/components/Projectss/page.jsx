@@ -39,8 +39,8 @@ export default function ProjectsPage() {
     const [inside, setInside] = useState({active: false, index: 0});
 
     return(
-        <main id='Work' className={styles.main}>
-            <div className={styles.body}>
+        <main id='Work' className='flex h-100vh justify-center items-center bg-zinc-50 text-zinc-900 '>
+            <div className='flex items-center justify-center  flex-col '>
                 {projects.map((project, index) => {
                     return <Project index={index} title={project.title} detailes={project.detailes} link={project.link} setInside={setInside} key={index} />
                 })}

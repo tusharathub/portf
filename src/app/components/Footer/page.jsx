@@ -1,6 +1,5 @@
 'use client'
 
-import Intro from "./Contents/intro";
 import { useEffect } from "react";
 import Lenis from 'lenis';
 import Content from "./Contents/contents";

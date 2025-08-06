@@ -34,11 +34,15 @@ const skills = [
     {
         title: "HTML",
         color: "#F06318"
-  },
-  {
+    },
+    {
+        title: "CSS",
+        color: "#F0F018"
+    },
+    {
     title: "CSS",
     color: "#91F018"
-  }
+    }
 ]
 
  export default function Skills() {

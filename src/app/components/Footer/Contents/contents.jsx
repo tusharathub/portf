@@ -1,6 +1,6 @@
 import TargetCursor from "../../../../../bits/TargetCursor/TargetCursor";
+import MagnetLines from "../../../../../bits/MagnetLines/MagnetLines";
 import { FaGithub, FaTwitter, FaLinkedin, FaInstagram, FaMailBulk } from "react-icons/fa";
-import Foot from "./upper";
 
 export default function Footer() {
   return (
@@ -29,8 +29,8 @@ export default function Footer() {
 
 const Section = () => {
   return (
-    <div className="flex flex-col mt-20 w-full">
-      <div className="w-full border-t pt-10 mt-auto flex flex-col gap-10">
+    <div className="flex  mt-30 w-full border-t-2 border-gray-800 pt-10">
+      <div className="w-4/6 pt-10  flex flex-col gap-10">
 
         <div className="flex flex-col gap-4">
           <h1 className="text-7xl "> Ahh You've reached here</h1>
@@ -46,6 +46,18 @@ const Section = () => {
         </div>
 
         <p className="text-xs text-zinc-500">© {new Date().getFullYear()} Tushar N. All rights reserved.</p>
+      </div>
+      <div className="w-2/6 flex mt-10 items-center justify-center">
+      <MagnetLines
+  rows={9}
+  columns={9}
+  containerSize="40vmin"
+  lineColor="black"
+  lineWidth="0.3vmin"
+  lineHeight="4vmin"
+  baseAngle={0}
+  // style={{ margin: "2rem auto" }}
+/>
       </div>
     </div>
   );

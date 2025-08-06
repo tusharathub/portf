@@ -75,7 +75,7 @@ export default function InitialCurve() {
   };
 
   return (
-    <main className={styles.main}>
+    <main   className={styles.main}>
       <div className={styles.body}>
        
        <Navbar/>

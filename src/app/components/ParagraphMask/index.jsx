@@ -11,28 +11,16 @@ export default function LandingPage() {
   const size = isHovered ? 400 : 40;
 
   return (
-    <div id="About" className="flex h-screen w-screen">
-        
-      <main
-        className={`${styles.main} w-4/6 flex flex-col  justify-center text-zinc-900 bg-zinc-50`}
-        >
+    <div id="About" className="flex h-screen w-screen ">
+      <main className={`${styles.main} w-4/6 flex flex-col  justify-center text-zinc-900 bg-zinc-50 `}>
         <motion.div
           className={`${styles.mask} bg-yellow-50`}
           animate={{
             WebkitMaskPosition: `${x - size / 2}px ${y - size / 2}px`,
-            WebkitMaskSize: `${size}px`,
-          }}
-          transition={{ type: "tween", ease: "backOut", duration: 0.5 }}
-          >
-          <p
-            className="w-4/6 mr-130"
-            onMouseEnter={() => {
-              setIsHovered(true);
-            }}
-            onMouseLeave={() => {
-              setIsHovered(false);
-            }}
-            >
+            WebkitMaskSize: `${size}px`, }}
+          transition={{ type: "tween", ease: "backOut", duration: 0.5 }}>
+          <p className="w-4/6 mr-130" onMouseEnter={() => { setIsHovered(true); }}
+                                      onMouseLeave={() => { setIsHovered(false); }} >
             If it looks good, it’s mine. If it doesn’t, someone changed the file
             after I handed it off.
             <br />- Franz Kafka 1899
@@ -41,9 +29,8 @@ export default function LandingPage() {
 
         <div className={`${styles.body} `}>
           <p>
-            I am Tushar,
-            I'm a selectively skilled <span> web developer</span> with high
-            focus on producing top quality & stunning digital episodes.
+            I am Tushar, I'm a Especially skilled <span>web developer</span>{" "}
+            with high focus on making top quality & stunning online episodes.
           </p>
         </div>
       </main>
@@ -54,9 +41,8 @@ export default function LandingPage() {
             secondContent={
               <img
                 src="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg"
-                alt="default pixel transition content, a cat!"
-                style={{ width: "100%", height: "100%", objectFit: "cover" }}
-              />
+                alt="pixel transition image"
+                style={{ width: "100%", height: "100%", objectFit: "cover" }}  />
             }
             firstContent={
               <div
@@ -68,13 +54,7 @@ export default function LandingPage() {
                   backgroundColor: "#111",
                 }}
               >
-                <p
-                  style={{
-                    fontWeight: 900,
-                    fontSize: "3rem",
-                    color: "#ffffff",
-                  }}
-                >
+                <p style={{ fontWeight: 900, fontSize: "3rem", color: "#ffffff", }} >
                   Woof Woof!
                 </p>
               </div>
@@ -84,9 +64,6 @@ export default function LandingPage() {
             animationStepDuration={0.4}
             className="custom-pixel-card"
           />
-          {/* <h1 className="text-3xl font-semibold text-gray-800">
-            Filler/ Pixel transition
-          </h1> */}
         </div>
       </div>
     </div>

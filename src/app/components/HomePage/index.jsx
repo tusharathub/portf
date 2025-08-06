@@ -1,7 +1,5 @@
 import { useRef, useState, useEffect } from "react";
 import styles from "../HomePage/Home.module.css";
-import PixelTransition from "../../../../bits/PixelTransition/PixelTransition";
-import useMousePosition from "./useMousePosition";
 import { motion } from "framer-motion";
 
 const words = ["Frontend", "Backend", "Full-Stack"];
