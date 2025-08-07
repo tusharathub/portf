@@ -6,10 +6,10 @@ import { useState } from "react";
 const projects = [
   {
     title: "Color Palaette",
-    src: "1.jpg",
+    src: "color-palette.png",
     color: "#000000",
-    detailes: "A color palette generator that helps you create beautiful color schemes for your projects.",
-    link: "https://www.youtube.com"
+    detailes: "A color palette generator that helps you create beautiful color schemes for your projects with the help of Artificial Intelligence.",
+    link: "https://color-palette-flfx.vercel.app/"
   },
   {
     title: "Chat Application",
