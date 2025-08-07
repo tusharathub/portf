@@ -12,11 +12,11 @@ const projects = [
     link: "https://color-palette-flfx.vercel.app/"
   },
   {
-    title: "Chat Application",
-    src: "2.jpg",
+    title: "KiloGram (Chat Application)",
+    src: "kilogram.png",
     color: "#8C8C8C",
     detailes: "A modern chat application that combines functionality with aesthetics.",
-    link: "https://www.google.com"
+    link: "https://kilo-gram-vuir-tusharathubs-projects.vercel.app/"
   },
   {
     title: "Lift-Ai",
