@@ -17,16 +17,16 @@ function PixelTransition({
   const delayedCallRef = useRef(null);
 
   const [isActive, setIsActive] = useState(false);
+  const [isTouchDevice, setIsTouchDevice] = useState(false);
 
-  const isTouchDevice = () => {
-  if (typeof window === 'undefined') return false;
+  useEffect(() => {
+    const result =
+      'ontouchstart' in window ||
+      navigator.maxTouchPoints > 0 ||
+      window.matchMedia('(pointer: coarse)').matches;
+    setIsTouchDevice(result);
+  }, []);
 
-  return (
-    'ontouchstart' in window ||
-    navigator.maxTouchPoints > 0 ||
-    window.matchMedia('(pointer: coarse)').matches
-  );
-};
 
   useEffect(() => {
     const pixelGridEl = pixelGridRef.current;
