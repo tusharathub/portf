@@ -19,10 +19,10 @@ const projects = [
     link: "https://www.google.com"
   },
   {
-    title: "Chat Application 2",
+    title: "Lift-Ai",
     src: "3.jpg",
     color: "#EFE8D3",
-    detailes: "A modern chat application that showcases the power and elegance of real-time communication.",
+    detailes: "A modern way to be fit and meet your body goals using Artificial Intelligence.",
     link: "https://www.facebook.com" 
   },
   {
