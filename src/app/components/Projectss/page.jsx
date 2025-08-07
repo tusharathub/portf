@@ -20,10 +20,10 @@ const projects = [
   },
   {
     title: "Lift-Ai",
-    src: "3.jpg",
+    src: "liftAI.png",
     color: "#EFE8D3",
     detailes: "A modern way to be fit and meet your body goals using Artificial Intelligence.",
-    link: "https://www.facebook.com" 
+    link: "https://lift-ai-six.vercel.app/" 
   },
   {
     title: "Wisdom Finder",
