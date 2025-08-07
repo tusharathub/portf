@@ -4,12 +4,13 @@ import { useState } from "react";
 
 
 const projects = [
-  {
-    title: "Color Palaette",
-    src: "color-palette.png",
-    color: "#000000",
-    detailes: "A color palette generator that helps you create beautiful color schemes for your projects with the help of Artificial Intelligence.",
-    link: "https://color-palette-flfx.vercel.app/"
+
+    {
+    title: "Wisdom Finder",
+    src: "wisdom.png",
+    color: "#706D63",
+    detailes: "Obtain real wisdom from the real people like YOU",
+    link: "https://wisdom-beta.vercel.app/"
   },
   {
     title: "KiloGram (Chat Application)",
@@ -25,13 +26,20 @@ const projects = [
     detailes: "A modern way to be fit and meet your body goals using Artificial Intelligence.",
     link: "https://lift-ai-six.vercel.app/" 
   },
-  {
-    title: "Wisdom Finder",
-    src: "wisdom.png",
-    color: "#706D63",
-    detailes: "Obtain real wisdom from the real people like YOU",
-    link: "https://wisdom-beta.vercel.app/"
-  }
+    {
+    title: "Color Palaette",
+    src: "color-palette.png",
+    color: "#000000",
+    detailes: "A color palette generator that helps you create beautiful color schemes for your projects with the help of Artificial Intelligence.",
+    link: "https://color-palette-flfx.vercel.app/"
+  },
+  // {
+  //   title: "Ochi Clone",
+  //   src: "ochi-clone.png",
+  //   color: "#706D63",
+  //   detailes: "A stunning clone of an agency called OCHI",
+  //   link: "https://ochi-beige.vercel.app/"
+  // }
 ]
 
 export default function ProjectsPage() {
