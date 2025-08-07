@@ -1,10 +1,10 @@
+"use client"
 import Project from "./RealProjects/index"
 import Inside from "./inside/index"
 import { useState } from "react";
 
 
 const projects = [
-
     {
     title: "Wisdom Finder",
     src: "wisdom.png",
