@@ -27,10 +27,10 @@ const projects = [
   },
   {
     title: "Wisdom Finder",
-    src: "4.jpg",
+    src: "wisdom.png",
     color: "#706D63",
-    detailes: "A serene design project that emphasizes tranquility and simplicity.",
-    link: "https://www.instagram.com"
+    detailes: "Obtain real wisdom from the real people like YOU",
+    link: "https://wisdom-beta.vercel.app/"
   }
 ]
 
