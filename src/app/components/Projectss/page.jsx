@@ -13,11 +13,18 @@ const projects = [
     link: "https://wisdom-beta.vercel.app/"
   },
   {
-    title: "KiloGram (Chat Application)",
-    src: "kilogram.png",
+    title: "NotableCV",
+    src: "notableCV.png",
     color: "#8C8C8C",
-    detailes: "A modern chat application that combines functionality with aesthetics.",
-    link: "https://kilo-gram-vuir-tusharathubs-projects.vercel.app/"
+    detailes: "An AI-powered platform that analyzes resumes and job descriptions to generate personalized cover-letter suggestions",
+    link: "https://notable-cv.vercel.app/"
+  },
+  {
+    title: "RoutineMelt",
+    src: "routineMelt.png",
+    color: "#000000",
+    detailes: "A GitHub-style habit and task tracker that visualizes daily progress through an interactive contribution grid",
+    link: "https://routine-melt.vercel.app/"
   },
   {
     title: "Lift-Ai",
@@ -25,13 +32,6 @@ const projects = [
     color: "#EFE8D3",
     detailes: "A modern way to be fit and meet your body goals using Artificial Intelligence.",
     link: "https://lift-ai-six.vercel.app/" 
-  },
-    {
-    title: "Color Palaette",
-    src: "color-palette.png",
-    color: "#000000",
-    detailes: "A color palette generator that helps you create beautiful color schemes for your projects with the help of Artificial Intelligence.",
-    link: "https://color-palette-flfx.vercel.app/"
   },
   // {
   //   title: "Ochi Clone",
